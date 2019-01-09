@@ -22,7 +22,7 @@ $ ~/path/to/repo-switcher/switch.sh -o gitlab -n github -u adhamu
 | -o     | The old service you're moving your repository from. This can be a search term as it's passed to `grep` |
 | -n     | The new service you're moving to. This currently can be set to *github*, *bitbucket* or *gitlab* |
 | -u     | Your username for the new git service provider |
-| -x     | Each "migration" will prompt you before it changes the remote origin. This "flag" skips all confirmation prompts. Use carefully |
+| -x (Optional)     | Each "migration" will prompt you before it changes the remote origin. This "flag" skips all confirmation prompts. Use carefully |
 
 # Assumptions
 - You have already created the repository on the new service you're moving to (on the remote)
