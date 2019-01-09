@@ -7,11 +7,11 @@ Since Github is now offering [free private repositories for free](https://blog.g
 ## Usage
 
 ```shell
-$ git clone https://github.com/adhamu/repo-switcher.git
-$ ./switch.sh -o [old service] -n [github|bitbucket|gitlab] -u [new service username]
+❯ git clone https://github.com/adhamu/repo-switcher.git
+❯ ./switch.sh -o [old service] -n [github|bitbucket|gitlab] -u [new service username]
 
-$ cd ~/Projects
-$ ~/path/to/repo-switcher/switch.sh -o gitlab -n github -u adhamu
+❯ cd ~/Projects
+❯ ~/path/to/repo-switcher/switch.sh -o gitlab -n github -u adhamu
 ```
 
 **Note**: This script will look for repositories in whatever directory you are in so it can be run from any directory.
